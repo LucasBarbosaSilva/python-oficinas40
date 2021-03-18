@@ -6,3 +6,5 @@ import math
 resultado = math.sqrt(((xb - xa)**2 + (yb - ya)**2))
 
 print ("A distância é de ", resultado)
+if(xa == ya and xb == yb):
+  print("Tudo igual")
