@@ -1,5 +1,5 @@
-xa, ya = float(input("Digite os valores da primeira coordenada: ").split())
-xb, yb = float(input("Digite os valores da segunda coordenada: ").split())
+xa, ya = [float(x) for x in input("Digite os valores da primeira coordenada: ").split()]
+xb, yb = [float(x) for x in input("Digite os valores da segunda coordenada: ").split()]
 
 import math
 
